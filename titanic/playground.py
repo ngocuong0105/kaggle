@@ -74,3 +74,4 @@ print(classification_report(y_train, y_fitted))
 # sklearn does not have p values...
 # try statsmodels, gives summary report
 from sklearn import pipeline
+import statsmodels
